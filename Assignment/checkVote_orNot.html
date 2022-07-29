@@ -1,0 +1,152 @@
+<html>
+  <head>
+    <title> Voting age program </title>
+   <!-- <link rel="stylesheet" href="voting.css"> -->
+   
+<link rel="icon" href="icon.png">
+   
+   <style>
+   
+   
+   
+     h1
+{
+ border: 2px solid green;
+ border-radius: 6px;
+ color: black;
+ padding:2px 3px;
+}
+
+body
+{
+  background-color: #ff7ed766;
+  
+}
+ #name input
+{
+  width: 250px;
+  height: 30px;
+}
+ #name input
+ { font-size: 15px;
+   font-family: Monospace;
+   border: 1px solid black;
+   border-radius: 6px;
+   margin: 5px;
+   
+ }
+   
+ #submit button
+ {
+   border: 2px solid green;
+   border-radius: 4px;
+   color: white;
+   background-color: green;
+   height: 30px;
+   width: 70px;
+   font-size:15px;
+   font-family: Monospace;
+   margin-left:5px ;
+ }
+     
+.js
+{
+  border: 2px solid green;
+  border-radius: 6px;
+  margin-top:30px ;
+  margin-left:55px;
+  height: 200px;
+ 
+}
+ 
+ .js p 
+{
+  font-size: 32px;
+  margin-top: 5px;
+  margin-left:40px;
+  font-family: Georgia;
+}
+
+.js h3
+{
+  font-size: 23px;
+  margin-left:5px;
+  font-family: Times New Roman;
+  margin-top:5px;
+}
+
+/*.image
+{
+  height: 140px;
+  width: 160px;
+  margin-top:10px;
+}
+*/
+   </style>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  </head>
+  <body>
+ <h1>Voting site that cheak you can vote or not..!</h1>
+  
+  <div id="name"><input id="naam" value="" type="text" placeholder="Enter your name..."</input>
+  
+ <div id="age"><input id="old" value="" type="text" placeholder="Enter your age..."</input>
+  
+  <div id="submit" onclick="javascript:age()"><button>Submit</button></div>
+ <div class="js">
+  <p><b><u>Result here:-</u></b></p>
+  <h3 id="n"></h3>
+  <h3 id="a"></h3>
+ <div>
+   
+   <script>
+
+function age()
+{
+  let name = document.getElementById('naam').value;
+  
+  let age = document.getElementById('old').value;
+  
+document.getElementById('n').innerHTML="Hii,  "+name+"<br>Your age is:- "+age;
+  
+  
+  
+
+  
+  
+  if(age==18) 
+  { 
+    document.getElementById('a').innerHTML="Yo, You can vote now...!";
+  }
+
+else if(age>=18) 
+  {
+document.getElementById('a').innerHTML="You can vote...!";
+  }
+
+else
+{ 
+  document.getElementById('a').innerHTML="You can't vote dear...!";
+} 
+}
+
+
+
+
+   </script>
+   
+   
+   
+   
+   
+   </body>
+   </html>

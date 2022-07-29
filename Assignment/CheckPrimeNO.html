@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <style>
+body 
+{
+    background-color:black;
+}
+
+.head
+{
+    color:white;
+    border:2.5px solid white;
+    border-radius:6px;
+    padding:5px;
+    font-family: georgia;
+    font-size:28px;
+}
+
+#in
+{
+    height:30px;
+    border:2px solid white;
+    border-radius:6px;
+    font-family: monospace;
+    font-size:20px;
+}
+
+#submit
+{
+    margin-top:7px;
+    height:40px;
+    width:100px;
+    border:2px solid green;
+    font-size:25px;
+    background-color:green;
+    border-radius:6px;
+    color:white;
+    font-family:georgia ;
+}
+
+
+h3
+{
+    color:white;
+}
+            </style>
+    </head>
+    <body>
+        <h1 class="head">Enter any number to cheak its prime or not</h1>
+        
+        <input id="in" type"text" placeholder="Enter any number..." value=""/>
+        <br/>
+    
+        
+        <input id="submit" type="button" value="Submit" onclick="javascript:Prime()"/>
+        
+        
+        <h3 id="input"></h3>
+        <script>
+function Prime()
+{
+let a = document.getElementById("in").value;
+let print;
+
+for(let i = 2; i < a; i++)
+{
+    if(a % i === 0)
+    {
+        print = "This is not a prime number";
+        break;
+    }
+    
+        print = "This is a prime number";
+}
+
+document.getElementById("input").innerHTML = "You entered :- "+a+"<br>"+print;
+
+
+
+}
+
+
+
+            </script>
+        
+        
+        
+    </body>
+</html>
