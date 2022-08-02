@@ -9,6 +9,7 @@ programming language.
 -> Class
 -> Object
 -> Encapsulation
+-> Abastraction
 -> Inheritance
 -> Polymorphism -> (i)  Overloading
                 -> (ii) Overriding
@@ -96,6 +97,162 @@ We can delete any item of object when we use object litrals.
 
 But we can't delete any element in object when we create an object using object.create.
 _________________________________________________________________________________________________________
+
+3.What is Encapsulation in Oops?
+Encapsulation is a mechanism which is used to wrapped all the data and method in a single unit.
+In Encapsulation declare the class varrible as private________________________________________#
+
+#Program of Encapsulation:-
+
+class MyName{
+#name = "Mj"
+}
+
+let obj1 = new MyName()
+console.log(obj1.name)
+
+#Using getName & SetName we can access the private properties in javascript.
+#Program look like_________________________________________________________#
+
+ #name = "Deepak";
+
+    getName(){
+        return this.#name;
+    }
+
+    setName(n){
+        this.#name = n;
+    }
+}
+
+let simp = new simple()
+console.log(simp.getName())
+
+_________________________________________________________________________________________________________
+
+4.What is Abastraction in Oops?
+Abastraction is also the most important feature in javascript,
+It is used to hide the non-essential features of the program
+
+In other word it is the process which is used to hiding the implementation
+detail from the user, Showing only the highlighted set of service to the user.
+
+In Advantages of Abastraction:- 
+First is security and Second is enhencement.
+
+class Mjvirus{
+    constructor(array)
+    {
+        this.a = array
+    }
+    sorting()
+    {
+       return this.a.sort((a,b) => a-b)
+    }
+}
+
+let obj = new Mjvirus([5,4,3,2,1])
+console.log(obj.sorting())
+
+_________________________________________________________________________________________________________
+
+5.What is Inheritance ?
+Inheritance is also one of the most important feature in javascript 
+which is used to provide the reuseablity in the program___________#
+
+In inheritence, One class access all the properties of another class
+by help of extends keyword_________________________________________#
+
+#Iska mtlb @gar aap 4 new new class bnaty ho to @aapko usey access 
+krny k liye different different object bnany ki jarurat nii h You
+can access all the data and method by creating only one object 
+but before this you have to extends your class_____________________#
+
+class parent{
+    constructor(name,age){
+    this.Name = name;
+    this.Age = age;
+    }
+}
+
+class child extends parent{
+    Display(){
+        console.log(`Hey ${Name},\n Your are ${Age} years old.`)
+        // See, here this class access the all properties of own parent class
+    }
+}
+
+obj = new child("Mj virus",18)
+console.log(obj)
+
+________________________________________________________________________________________________________
+
+6.What is Polymorphism?
+It is define as a way to perform one operation or action in multiple forms.
+In other word, Polymorphism came from greak word which means having same 
+functon different beheaviour______________________________________________#
+
+#There are two types of polymorphism:-
+1. Overloading
+2. Overriding
+
+javascript doesn't support Overloading,
+
+#Program of Overloading:-
+
+class Overloading{
+    Student(name){
+        console.log("name:-",name)
+    }
+
+    Student(name,age){
+        console.log("Name:-",name)
+        console.log("Age:-",age)
+    }
+}
+
+let obj = new Overloading()
+obj.Student("Deepak",18)
+
+
+#Program of Overriding:-
+
+class virus{
+    MyName(name)
+    {
+      console.log("Name:- ",name)
+    }
+}
+
+class Mj extends virus{
+    MyName(name,cource)
+    {
+      console.log("Name:- ",name,"Cource:- ",cource)
+    }
+}
+
+let obj = new Mj;
+obj.MyName("Deepak Ravidas","F.E")
+_____________________________________________________________________________________________________________________________
+
+#Next topic is Prototype...!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
