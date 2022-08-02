@@ -1,0 +1,103 @@
+  
+############################## Oops in javascript ❤️ || Date 2 August || Relevel by unacadamy ####################################
+
+1.What is Oops?
+Oops stands for Object Oriented Programming language. And the main purpose of the oops is to deal with real world entities using 
+programming language.
+
+#Features of Oops are:-
+-> Class
+-> Object
+-> Encapsulation
+-> Inheritance
+-> Polymorphism -> (i)  Overloading
+                -> (ii) Overriding
+
+1.What is class in Opps?
+-> Class is a bluepriny of real-life entities.
+
+-> It defines the characteristics of an object like colour, shape, size.
+
+-> In real world class is the best example of human beings and it's 
+properties is colour, size, 2 Eye, 2 Ear, 2 Hand etc.
+
+#Program of a class with obj:- 
+class Mjvirus {
+  constructor(fname, lname){
+    this.M = fname;
+    this.J = lname;
+  }
+
+  virus(){
+    console.log(`Your 1st name is:-  ${this.M}\nYour last name is:- ${this.J}`)
+  }
+}
+
+let Mj = new Mjvirus("Mj","virus")
+Mj.virus()
+________________________________________________________________________________________________________________________________
+
+2. What is objects in Opps?
+-> Object is an instance of class.
+
+-> Which have key value pair sometimes having properties and method.
+
+-> Example of object is:- let's say a cup which have some properties like it's colour, it's design, its shape, it's material etc.
+
+-> Here, cup is object and properties is it's look like means, colour, shape and design etc.
+
+#We can create an object in four ways:- 
+1.Object.create
+2.Object litral
+3.Constructor
+4.Class 
+
+1.Program of Object.create():- 
+let mj = Object.create({
+  fname: "Mj",
+  lname: "virus"
+})
+console.log(mj)
+console.log(mj.fname)
+
+Object create is a method which is used to create a new object using an existing object called prototype.
+________________________________________________________________________________________________________
+
+2.Program of Object litral:-
+
+let virus = {
+  name: "Deepak Ravidas",
+  age: 18
+}
+delete virus.name;
+console.log(virus)
+
+Object litrals is a comma-separated list of name-value pair which inside of curly braces.
+________________________________________________________________________________________________________
+
+This is the @wesome difference between object create and object litrals:-
+
+let mj = Object.create({
+  fname: "Mj",
+  lname: "virus"
+})
+delete mj.name;
+console.log(mj.fname)
+
+
+let virus = {
+  name: "Deepak Ravidas",
+  age: 18
+}
+delete virus.name;
+console.log(virus)
+
+We can delete any item of object when we use object litrals.
+
+But we can't delete any element in object when we create an object using object.create.
+_________________________________________________________________________________________________________
+
+
+
+
+
