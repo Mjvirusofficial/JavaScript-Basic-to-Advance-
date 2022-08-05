@@ -15,3 +15,5 @@ function fun(name){
     console.log(this.class)
   }
  fun("Deepak,10")
+
+ 
