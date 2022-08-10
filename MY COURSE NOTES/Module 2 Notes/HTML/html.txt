@@ -1,0 +1,259 @@
+##########################~HTML:- Hyper Text Markup Language~#############################
+
+--> Html is used to create electronic-document that is called webpages, That are displayed
+    in the world wide web, Each page contained a series of connections to other pages called
+    hyperlinks.
+
+--> A webpages is a web document which can be displayed in a web browser such as 
+    Firefox, Google Chrome, Opera, Microsoft Internet Explorer or Edge, or Apple's 
+    Safari. These are also often called just "pages." website.
+
+In short:- 
+
+--> It's stand for hyper text markup language.
+
+--> HTML Develop by Tim Birners lee in the year of 1990. 
+
+
+--> Html is the language of the webpages which is used to create a website.
+
+--> We use html tags to create a structure of the website.
+
+--> Website is a collection of webpages.
+
+
+
+#Why do we use Html:-
+--> HTML code ensures the proper formatting of text and images for your Internet browser. 
+
+--> Without HTML, a browser would not know how to display text as elements or load images 
+    or other elements. 
+    
+--> HTML also provides a basic structure of the page, upon which Cascading Style Sheets 
+    are overlaid to change its appearance.
+
+#A Basic HTML Syntax:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+#Comments in Html:- 
+
+--> The Comment tag are used to insert Comment in the source code.
+
+--> Comments are not displayed in the web browser.
+
+--> You can use comment to explain your code which can help you 
+    when you edit a source code at a later date.
+
+--> This is specially used usefull if you have a lot of code.
+
+--> Comments in your program look like <!-- This is a comment -->
+
+_____________________________________________________________________________________________________________
+
+#Define tages in HTML:-
+--> An Html tag is a peice of markup language used to used to indicate the
+    beginning and end of an HTML element.
+
+--> Tags are two types opeaning and closing tags.
+
+--> <html></html>
+
+#Define HTML element:-
+--> Everything from starting to ending tag is known as HTML Element.
+
+--> <body> content </body>
+
+#Define Html Attributes:-
+--> Used to add more information corrresponding to an HTML tag.
+
+--> Example:- <a href="mjvirusofficial.github.io"></a>
+
+--> We can either use single or double qutos in attributes.
+
+#Heading Tag:-
+
+--> Heading tag is used to mark heading in website.
+
+<h1>Heading 1</h1>
+<h2>Heading 1</h2>
+<h3>Heading 1</h3>
+<h4>Heading 1</h4>
+<h5>Heading 1</h5>
+<h6>Heading 1</h6>
+
+
+#Paragraph tags are use to add paragraph to an html pages.
+--> <p>Parahraph 1</p>
+
+
+#Anchor tags are used to add link to an exixting content inside an Html pages.
+--> <a href="https://www.googole.com></a>
+
+
+#Image tag is used to add images to an html pages.
+--> <img src="mj.png">
+
+
+#br tag is used to break the line of you html document.
+--> <br>
+
+
+#hr tag is used to create a horijontal ruler to seprate a content.
+--> <hr>
+
+
+#Subscript & Supscript in html as follows:-
+-->Subscript
+  <h1>SubScript use for chemical Equation.</h1>  
+  <p>1.Zn + H<sub>2</sub>SO <sub>4</sub> --> ZnSo<sub>4</sub>H<sub>4</sub></p>
+  <p>2.NaOH + HCl --> NaCl + H<sub>2</sub>o</p>
+  <p>3.C + O<sub>2</sub> --> CO<sub>2</sub></p>
+  <p>4.Mg + O<sub>2</sub> --> MgO</p>
+  <p>5.Fe + S<sub>2</sub>O --> Fe<sub>3</sub>O<sub>2</sub> + H2</p>
+
+-->Supscript
+<h1>SupScript use for Mathematical Equation.</h1>
+    <p>1.(a + b)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> + 2ab</p>
+    <p>2.(a - b)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> - 2ab</p>
+    <p>3.a<sup>2</sup> - b<sup>2</sup> = (a + b) (a - b)</p>
+    <p>4.(a + b)<sup>3</sup> = a<sup>3</sup> + b<sup>3</sup> + 3ab (a + b)</p>
+    <p>5.(a - b)<sup>3</sup> = a<sup>3</sup> + b<sup>3</sup> - 3ab (a + b)</p>
+
+_____________________________________________________________________________________________________________
+
+
+#Creating a pagae layout:-
+--> When we use right tag in right place, it gives result as a better page layout 
+beter indexing and better user experiences.
+
+--> We use the following to get a better result:-
+
+--> <header>
+
+--> <main>
+
+--> <footer>
+
+#Inside main tag we use a following tags:-
+--> <main> main is opeaning tag
+<section>  --> A page section 
+<article>  --> A self contained content
+<aside>    --> Content aside from the content (eg Ads etc.)
+--> </main>
+
+
+#List are used to displayed content which represent a list.
+--> OrderList:-
+    <h1>This is an Order list</h1>
+        <h2>Number:-</h2>
+        <ol>
+         <li>Apple</li>
+         <li>Mango</li>
+         <li>Banana</li>
+         <li>Grapes</li>
+         <li>Orange</li>
+ </ol>
+
+--> UnorderList:-
+    <h1>This is an Unorder list</h1>
+        <h2>Number:-</h2>
+        <ul>
+         <li>Apple</li>
+         <li>Mango</li>
+         <li>Banana</li>
+         <li>Grapes</li>
+         <li>Orange</li>
+ </ul>
+
+
+ #Table tag are used define a table in Html.
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 4px solid green;
+            border-radius: 4px;
+            text-align: center;
+        }
+    .tb{
+        border: 2px solid black;
+    }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>This is a Table hading❤️</h1>
+    </header>
+
+    <main>
+        <div>
+            <table>
+                <thead style = background-color:yellow>
+                    <tr>
+                        <th>Full Name</th>
+                        <th>Branch</th>
+                        <th>Roll no</th>
+                        <th>Board roll no</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Deepak Ravidas</td>
+                        <td>C.E</td>
+                        <td>904</td>
+                        <td>19701050007</td>
+                    </tr>
+
+                    <tr>
+                        <td>Bunty Kumar</td>
+                        <td>C.E</td>
+                        <td>897</td>
+                        <td>19701050005</td>
+                    </tr>
+
+                    <tr>
+                        <td>Ayush Kumar</td>
+                        <td>C.E</td>
+                        <td>872</td>
+                        <td>19701050001</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sagar Kumar</td>
+                        <td>C.E</td>
+                        <td>867</td>
+                        <td>19701050015</td>
+                    </tr>
+
+                    <tr>
+                        <td>Shambhu Sharma</td>
+                        <td>C.E</td>
+                        <td>972</td>
+                        <td>19701050018</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,14 @@
+
+2.What is Prototype chaining?
+--> Every javascript has a in_buit property that is known as prototype.
+
+--> This prototype is nothing but an object itself,
+
+--> As its an object so, it will contain its own prototype
+
+--> This will create a chain of property inside the another prototype 
+    known as prototype channing_________________________________________#
+
+--> This chain will end also when we reach a prototype with null value.
+
+--> Object.getPrototypeOf() method is used to fetch the prototype object. 

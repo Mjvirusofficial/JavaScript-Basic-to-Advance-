@@ -1,0 +1,63 @@
+                                                                           5 August 2022
+1.What is a Promise?
+A promise in JavaScript is similar to a promises we do in real life. When we make a promise, it is a guarantee that in future, we are going to do something. A promise has two possible outcomes: it will be kept when the time comes, or it will not. Similarly, in JavaScript, when we define a promise, either it will be resolved when the time comes, or it will get rejected. According to MDN, “the Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.”
+
+A promise has three states:
+
+pending: It is the initial state.
+Fulfilled: It indicates that the promised operation was successful.
+Rejected: It indicates that the promised operation was unsuccessful.
+
+#Simple Program for promise...!
+
+function student(res){
+    return new Promise((resolve,reject) =>{
+    setTimeout(() =>{
+    if(res >= 40){
+        resolve("Teacher: you pass on your exam.")
+    }
+
+    else
+    {
+        reject("Teacher: you fail on your exam.")
+    }
+        
+    },2000)
+    })
+}
+
+student(30).then((p) =>{
+  console.log(p)
+}).catch((f) =>{
+  console.log(f)
+})
+
+#Promise.all([])
+It is a method that takes an array of promises and return new promise only when all promises will be
+fulfilled.
+It works asynchronous. So, if there is independent promises. We can add it into Promise.all() and it
+will try to resolve it parally.
+
+#Simple Program for promise.all([])...!
+
+let p1 = Promise.resolve(123)
+let p2 = "Mj_virus";
+let p3 = new Promise((resolve,reject) =>{
+    setTimeout(() => {
+    let a = 5;
+    if(a === 4){
+        resolve("All are true.")
+    }
+
+    else{
+        reject("False")
+    }
+    
+    },2000)
+})
+
+Promise.all([p1,p2,p3]).then((t) => {
+   console.log(t)
+}).catch((f) => {
+   console.log(f)
+})

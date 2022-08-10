@@ -1,0 +1,33 @@
+
+3.Define process & threads?
+#Process:-
+Process is a whole program you can say, which is excutable.
+what is program then program is a set of instruction & you
+can say a collection of code______________________________#
+
+&
+#Thread:-
+Thread is nothing but segment of a process means, its a small part of process
+in other word you can say________________________________________________#
+Thread is way that tells to the program how to excute in fastly or slowely.
+
+let,s understand single-thread and multi-threads:-
+You have a task to iterate a loop 100 tym?
+you have 2 option________________________#
+
+#Option 1:
+Single-thread that take to take 1sec in one itreration
+you know if take 1se to iterate one time then it will 
+take 100sec to iterate all.
+
+Option 2:
+Multi-threads means you loop iterate 100 time then divide
+its on 4 single thread that is called multi-threads
+You iterate each loop at 25 time.
+1 loop 25 time.
+2 loop 25 time.
+3 loop 25 time.
+4 loop 25 time.
+You find the total time in multi-thread in 25 second.
+
+So, Multi-thread is more faster than single thread;

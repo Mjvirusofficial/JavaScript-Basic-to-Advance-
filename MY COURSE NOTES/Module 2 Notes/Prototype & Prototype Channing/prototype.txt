@@ -1,0 +1,55 @@
+#Next topic is Prototype...!
+3 AUGUST 2022______________#
+
+
+1.What is prototype?
+#Concept 1:
+Every function or object in javascript has a property called 
+prototype/ __protp__ its a object__________________________#
+
+function MyName(name,age){
+    this.n = name;
+    this.a = age;
+}
+
+console.log(MyName.prototype)
+
+
+
+#Concept 2:
+How to access a Prototype in JavaScript? || ########### 3 August 2022 ###############
+Prototype can be access as a constructorFunction.prototype in of Constructor function
+And __proto__ in case of object_____________________________________________________#
+
+function Mj(name){
+    this.n = name;
+ }
+ console.log(Mj.prototype)
+
+ let Mjvirus = new Mj("Deepak")
+ console.log(Mjvirus.__proto__)
+
+
+
+#Concept 3:
+
+// How to added a properties in JavaScript? || ########### 3 August 2022 ###############
+// Prototype can be access as a constructorFunction.prototype in of Constructor function
+// And __proto__ in case of object_____________________________________________________#
+
+function fun(name){
+  this.name = name;
+  console.log(this.name)
+}
+
+let f1 = new fun("Mj virus")
+console.log(f1)
+
+// Adding new properties like class
+
+fun.prototype.class =  function(c){
+  this.class = c;
+  console.log(this)
+}
+let f2 = new fun("Deepak,18")
+console.log(f2)
