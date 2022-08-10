@@ -1,0 +1,25 @@
+#####Function Declaration######
+
+Function declaration:- its is simply a that created by programmer.
+
+We can call it before and after function definition.
+
+Means, Function declaration in javascript are hoisted.
+
+######Function expression#####
+
+When we create a function in our program and assign it into varriable that time it is known as function declaration.
+
+We can't call function expression before function definition.
+
+Means, Function expression in javascript are not hoisted.
+
+For e.g:- 
+My_fun()
+let My_fun = function Mjvirus (){
+console.log("Mjvirusofficial")
+}
+
+
+
+And hoisted means what then when we call any function that define in our program it is known as hoisted function_________#

@@ -1,0 +1,43 @@
+
+#########Operators#########
+Operator is a symbol that is used to perform methematical or logical operation on varriable or any value.
+
+Operators are divided into three types:- 
+
+1. Unary operator
+2. Binary operator
+3. Ternary operator
+
+1. Unary operator is a type operator that contain only one operands 
+
+Operand means what toh operand is either varriable or value.
+
+Unary operator types are:-
+1. Increament ++
+2. Decrement --
+
+2. Binary operator contain 2 operand to perform any task.
+
+Binary operator types are:- 
+A. Airthemetic operator perform only methematical task.
+Like:- +, -, *, / and %
+
+B. Relational Operator check relationship between two operand.
+Like:- =, < and >
+
+C. Logical operator is used to combined two or more relations logically between two or more oprends.
+
+Supose, a = 2 and b = 5
+Like:- 1. a < b && b < a :- false
+2. a < b || b < a :-  true
+3. ! a < b : false
+
+D. Bitwise operator is used to perform individual bits of a number it can be used only integer types value not float, double, string etc.
+
+Types of bitwise operator are:-
+Bitwise And :- &
+Bitwise OR :- | 
+XOR :- ^
+Complement :- ~
+Left shift :- <<
+Right shift :- >>

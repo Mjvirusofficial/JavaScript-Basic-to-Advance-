@@ -1,0 +1,55 @@
+
+ #################################### JavaScript ########################################
+
+--> JavaScript is a scripting language which is used to adding behaviour on webpages.
+
+--> It works like a verb of the webpages that define all the action to tb perform on the webpage.
+
+ #############~History of javascript~################
+
+--> Javascript was invented by Brendan Eich in 1995.
+
+--> He was recruited by Netscape to develop a language which can be run in the browser. 
+
+--> Originally the name of javascript before javascript named was mocha and after that it was changed the name as javascript.
+
+--> You thought one time is java or javascript similar then i told there is no any relationship between them.
+
+--> The main reason of changing the name from mocha or Livescript into Javascript is a marketing technology.
+
+--> Because in that time the java programming was become a most popular language that's why developer wanted to change the name javascript from Mocha or Livescript
+
+--> In 1990s internet widely used by user. More companies introduced own browser that supports different different scripting language.
+
+--> So, that time Netscape decided to make a standard of scripting languages.
+
+--> So, Netscape given own scripting language to ECMA.
+
+--> it's stand for Eroupean, computer, Manufacturing, Association. 
+
+--> Its become a standard for all scripting language means any update will happened then all scripting language supported this feature.
+
+
+
+________________________________________________________________________________________________________________________________________
+
+######~Why use Javascript~#######
+
+#Why should we learn javascript? 
+Well there are a few reasons for that:- 
+
+1.First reason is that the browser understand only Html, Css and javascript.
+
+But now there are some other language like GWT(Java), dart etc using this we can also create U.I
+
+But those language translate the code into javascript and then javascript code gets excute on the browser.
+
+So, why not we write our code in Javascript itself it is very usefull and also save times that takes to convert any other language into javascript.
+
+And also we have more control over the code.
+
+Another reason is once you learn javascript you become a full stack web developer without need to learn any other language.
+
+Also javascript is used to create Desktop application with Electron and React native desktop frameworks.
+
+And javascript is also used to create Android and iOS application using React native.

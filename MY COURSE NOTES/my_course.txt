@@ -1,0 +1,38 @@
+JavaScript Relevel by unacadamy
+Date:- 14th July 2022 
+
+Topic covered:-
+1. Programing , why do we use it.
+
+2. F.E Developement
+
+3. JavaScript.
+
+4. History of JavaScript.
+
+5. Why use Javascript?
+_________________________________________________________________________________________________________________________
+5 Tarik payment ka per month timly
+
+###Starting from programming###
+
+Programming is way to communicate with computer system through programming language.
+
+Programming tasks could be as simple as adding two numbers and writing complex algorithms that help rockets land on the moon.
+
+My course:- 
+
+###### F.E. Development ######
+
+It stands for Front-end developer.
+
+Front end development is a programming which focuses on the visual elements of a website 
+or app that a user will interact with__________________________________________________#
+
+It is also known as client side programming.
+
+A front end developer, also known as a front end web developer.
+
+It is a professional & responsible for the design and implementation of the interface.
+
+Using some programing language like html, css, javascript etc.

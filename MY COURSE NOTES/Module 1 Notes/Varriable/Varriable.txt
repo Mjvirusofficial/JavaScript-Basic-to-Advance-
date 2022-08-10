@@ -1,0 +1,45 @@
+
+##########################~Varriables~#############################
+
+Varriable is a container that contains the value of the varriable.
+
+When we declare a variable we name it num, str, boolean. And also we have assigned a value that it to be stored, So that we can use it later in our program when needed.
+
+For e.g:- let A = 07;
+Here, A is a varriable that contain 07 as a value. So, it know as the value of a varriable.
+
+
+Let’s try to understand variables in-depth, when we declare a variable the system memory reserves a memory location and stores the value assigned to it in that memory space. 
+
+And when we reference the variable name again in the program, the value is fetched from that memory space.
+____________________________________________________________________________________________________________________________________________________________________________________________
+
+#Let’s understand the difference between var, let, and const:- 
+
+#Var :- 
+● When we declare a variable with ‘var’ keyword, it is function-scoped
+
+Globally scoped or function scoped. This 
+means that the scope of variables 
+defined by this keyword can be either in 
+the complete program or inside the 
+complete function where we have 
+defined it.
+
+#Let :- 
+● When we declare a variable with ‘let’ keyword, it is block-scoped.
+
+These variables’ scope remains under the block.
+
+#Const:-
+● When we declare a variable with ‘const’ keyword, it is block-scoped, but we cannot re-assign the 
+value. The value with which we initialise the const variable will remain constant throughout the 
+program.
+
+These variables cannot be redefined 
+again or reassigned again. Once defined, 
+their values will be constant
+
+_______________________________________________________________________________________________________________________________________________________
+
+________________________________________________________________________________________________________________________________________________________

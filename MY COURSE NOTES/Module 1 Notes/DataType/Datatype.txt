@@ -1,0 +1,39 @@
+
+####Data Types in javascript####
+Data type is a classification of data that tells to the compiler or interpret that how the programmer intend to use the data.
+
+There are basically 5 and 6 types of data types in javascript:- 
+1. Integers
+2. Strings
+3. Boolean
+4. Array 
+5. Object
+6. Null
+7. Undefined
+
+Integers:-
+Integer is any numric value.
+
+String:- 
+String is a collection of alphanumeric, characters and symbols which stored the different types of word and sentence.
+
+Boolean can be 2 values either true or false. 
+Whenever we want to store a value whose value can be either true or false, we can use Boolean datatype to store it.
+
+Example – let x = true;
+FSD-Class #180DaysofPurpose
+
+Number:- 
+Numbers are collection of different digits. They can be integers or decimal numbers. 
+
+There are different types of numbers like integers, decimal numbers, exponential numbers, special numbers like Infinity, NaN and so on.
+Example – 
+1. var num = 123; //Integer
+2. var num = 212.13456
+
+console.log(num.toExponential(4)); toExponential function is used to write exponential 
+numbers.
+
+Output -> 2.13e+0
+We can directly write numbers in exponential form too. For example 
+var num = 2.13e+10;

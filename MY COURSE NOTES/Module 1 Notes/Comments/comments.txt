@@ -1,0 +1,8 @@
+
+#Comments in javascript:-
+
+Comments is basically textual or string information in our code that is ignored by compiler and used to communicate information about the code.
+
+We have two types of comments in javascript:- 
+
+Same from other programming language single line and multiline comments.
