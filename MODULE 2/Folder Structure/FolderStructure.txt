@@ -1,0 +1,77 @@
+#What do you mean by Folder Structure?
+--> IN simple word folder structure is a way to arrange your folder in best way
+    when you work on any project then you saves your project file or folder in 
+    your local computer or any cloud so, its important to stored your files on 
+    folder in a particular formate because when you and your team see your project 
+    next time.
+
+--> And supose you have many folder then that its very complex to find your particular 
+    file that's you need to access. So, its important and best practice to store your 
+    saves in particular formate. 
+
+--> ● For everybody in the project to understand the purpose of the files there needs
+    to be a structure accepted and acknowledged by the project peers.
+
+--> ● Thus we follow certain methods to group these files in folders, so that it
+    becomes easier to track and maintain them.
+
+--> ● There is no hard and fast rule on maintaining folder structure. Depending on
+    the project, the folder structure keeps changing, but we have certain practises
+    that we can follow or draw inspiration from.
+
+
+#Best Practices.........!
+Group the files properly:
+--> ● Keep the base folder as “src” or “root”.
+--> ● The files that don’t have any dependency on other files should be kept here.
+--> ● Keep all JS files in one folder and CSS files in one.
+--> ● Keep files pertaining to one feature in one folder.
+--> ● E.g. For login page, create a folder called Login and keep the essential files there.
+
+# Avoid Nesting:
+● We can flatten the above by removing the unnecessary password folder and adding the three files in one folder, like
+this:
+
+#Best Practices:
+Avoid creating folders for housing just one file:
+● If there is only one file, try to keep it in the root folder or club it with other folders containing multiple files, do
+not create a folder to contain just one file or a few files as it makes the folder structure nested and unnecessary
+complex.
+
+
+###############################Let’s create our Frontend################################
+
+#Base Folder
+● We will create a folder called ecommerce-bootstrap.
+● This will serve as a root folder..
+● All the non-dependent files will be stored here.
+● We will create two separate folders called css & js to contain our css & JavaScript files.
+● The following HTML files will be stored here:
+cart.html, checkout.html, index.html, login.html, productDetails.html, productList.html
+
+#CSS
+Inside the css folder we will store the following files:
+● bootstrap.min.css
+● cart.css
+● checkout.css
+● common.css
+● home.css
+● login.css
+● productDetails.css
+● productList.css
+
+#JavaScript
+We will be storing the following files inside the js folder:
+● bootstrap.bundle.min.js
+● cart.js
+● checkout.js
+● home.js
+● login.js
+● productDetails.js
+● productList.js
+
+#Assignment_________________________________________________#
+Compile the files and load the UI of ecommerce app on browser
+
+
+            

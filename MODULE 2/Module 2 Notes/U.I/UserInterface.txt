@@ -1,0 +1,25 @@
+#What is User interface?
+--> User interface is a way that represent the data which comes from internet 
+    in beautifull way.
+
+--> Everyone know that any data which comes from internet/backend or server
+    that in JSON form means JavaScript Object Notion.
+
+--> That's not like @wesome because data in JSON form is look like array of 
+    object or object.
+
+--> So, here comes the all responsiblity of a fronted developer to represent 
+    data in @wesome or beautifull way that will user intrect with them.
+    
+
+#What is an API?
+--> An application programming interface is a way for two or more computer programs 
+    to communicate with each other. It is a type of software interface, offering a 
+    service to other pieces of software. 
+    
+--> A document or standard that describes how to build or use such a connection or 
+    interface is called an API specification.
+
+--> In other word:- API is the acronym for Application Programming Interface, 
+    which is a software intermediary that allows two applications to talk to each other. 
+    Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.

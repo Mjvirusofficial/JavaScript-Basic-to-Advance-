@@ -1,9 +1,13 @@
-let a = "Deepak";
-let count = {}
+// Step 1: Create a function that takes a string.
+// Step 2: Define a map{} in your program.
+// Step 3: Iterate your string from StoE. 
 
-for(i of a){
-    // count[i] = (count[i] || 0) + 1;
-    count[i] = (count[i] || 0 )+1
+function Maping(str){
+    let map = {}
+    for(i of str){
+        map[i] = (map[i] || 0)+1
+    }
+    console.log(map)
 }
 
-console.log(count)
+Maping("Deepak")

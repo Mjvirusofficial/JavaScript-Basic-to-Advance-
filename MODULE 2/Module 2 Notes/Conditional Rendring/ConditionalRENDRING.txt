@@ -1,0 +1,22 @@
+
+#What is Conditional Rendring?
+--> Conditional Rendring made from two word first is conditional second is rendring 
+    conditional means any condition that have a property that if it is true then 
+    perform a task.
+
+--> And second is rendring means displaying the data which comes from any condition.
+
+--> ● It is a concept where elements are displayed on the UI after meeting certain
+    conditions.
+
+--> ● It is used to add dynamic behavior to the application and ensure validations
+    are properly done.
+
+--> ● E.g. Facebook allows only 13+ aged people to open an account, so if the
+    user’s age is 13+, the user account screen will be displayed; else, a warning
+    will be displayed.
+
+--> To demonstrate conditional rendering, we will create an HTML file and add a JS
+    function there.
+    ● The HTML file will have a button with onclick attribute.
+    ● The JavaScript function will have conditionally render two different buttons.

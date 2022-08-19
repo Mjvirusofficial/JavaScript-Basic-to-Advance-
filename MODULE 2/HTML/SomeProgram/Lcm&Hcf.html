@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LCM and HCF</title>
+        <style>
+        body
+        {
+          background-color: orange;
+        }
+        input{
+          margin:4px;
+          border: 1.4px solid black;
+          border-radius: 5px;
+          height: 30px;
+          width: 230px;
+        }
+
+        #a,#b
+        {
+          font-size: 17px;
+          font-family: Monospace;
+        }
+
+        button{
+          margin:4px;
+          border: 1.4px solid black;
+          border-radius: 5px;
+          height: 35px;
+          width: 80px;
+          font-size: 21px;
+          font-family: Monospace;
+          background-color: green;
+          color: white;
+
+        }
+        #ans{
+          font-family: Monospace;
+          font-size:20px;
+        }
+
+
+        </style>
+    </head>
+    <body>
+         <input type="text" id="a" placeholder="Enter first number..."/>
+   <input type="text" id="b" placeholder="Enter second number..."/><br>
+
+   <button onclick="javascript:hcf()">Hcf</button>
+  <button onclick="javascript:lcm()">Lcm</button>
+  </button>
+
+   <p id="ans" ></p>
+   <script>
+
+   function hcf(){
+     let a = document.getElementById("a").value
+     let b = document.getElementById("b").value
+for(var i = a < b ? a:b; i > 0; i--)
+{
+  if(a % i === 0 && b % i === 0)
+  {
+    break;
+  }
+}
+document.getElementById("ans").innerHTML =`The HCF of ${a} and ${b} is:- ${i}`;
+
+   }
+
+function lcm(){
+     let a = document.getElementById("a").value
+     let b = document.getElementById("b").value
+for(var i = 1; i <= a*b; i++)
+{
+  if(i % a == 0 && i % b == 0)
+  {
+    break;
+  }
+}
+document.getElementById("ans").innerHTML =`The LCM of ${a} and ${b} is:- ${i}`;
+
+   }
+
+
+   </script>
+    </body>
+</html>
