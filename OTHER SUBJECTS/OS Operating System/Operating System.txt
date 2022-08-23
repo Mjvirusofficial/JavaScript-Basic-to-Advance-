@@ -1,0 +1,18 @@
+#What is Operating System?
+Operating system is a system which provide an interface between 
+user and the hardware of the computer.
+
+#Why there is need of operating system?
+--> If there is no any operating system and we are accesing some hardware 
+like printer to print any document then what can we print🤔..........
+
+--> ya definetly print but we have write code for it and if any new query
+is comed then we have write again code for it so, its become more 
+complex to work with computer system.
+
+--> That's why we need a operating system to work with computer.
+
+--> There are many function in operating system what is function an operating 
+system in function we can see the thing that why we use an operating system.
+
+--> The major goals of an operating system is provide convenience
