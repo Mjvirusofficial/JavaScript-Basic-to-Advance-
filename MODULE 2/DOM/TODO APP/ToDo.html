@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Todo App❤️</title>
+        <style>
+        body {
+    background-color:#ff7ed766;
+}
+
+.box{
+    border: 3px solid green;
+    border-radius:6px;
+    height:90%;
+    
+}
+
+.head{
+    margin-left:15px;
+   // text-align:;
+}
+
+#input{
+    border:2px solid black;
+    height:25px;
+    margin-left:12px;
+    border-radius:6px;
+    width:70%;
+}
+
+#add{
+    border:2px solid green;
+    background-color:green;
+    color:white;
+    height:30px;
+    width:55px;
+    margin-left:12px;
+    border-radius:6px;
+    font-size:18px;
+}
+
+#error{
+  margin-left: 15px;
+}
+#output {
+  list-style: none;
+  font-size: 25px;
+  border: 3px solid green;
+  border-radius: 6px;
+  height: ;
+  padding:6px;
+  
+}
+
+ul{
+  font-family: Monospace;
+  margin: 15px;
+}
+
+.delete{
+  background-color:green;
+}
+        </style>
+    </head>
+    <body>
+    <div class="box">
+            <h1 class="head"><u>Todo App❤️</u></h1>
+   <div class="in">             
+            <input type="text" id="input" placeholder="Write something..." name="input"/><span><input type="button" value="Add"id="add" onclick="add()"/></span>
+      </div>  
+        <h3 id="error"></h3>
+       
+        <ul id="output">
+          <b>You can see here your notes....😎<b><br><br>
+        </ul>
+        
+    <script>
+  function  add(){
+    document.getElementById('error').innerHTML = "";
+    //store UserInput..!
+     let input = document.getElementById('input').value
+   
+    if(input == '')
+     {
+     let error = document.getElementById('error').innerHTML = "Bhai kuch likho yr pehly tbhi<br>naa add krunga mai😀";
+     }
+     else{
+     //create list item...!
+    let li = document.createElement('li')
+    li.innerHTML = input;
+    
+    
+    //append kr do...!
+    let final = document.getElementById('output')
+    final.append(li);
+    
+    //add cross button;
+    let cross = document.createElement('a')
+    cross.innerHTML = "x"
+    cross.style.color="red";
+    cross.className = "delete";
+    li.append(cross);
+    
+    
+  }
+  document.getElementById('input').value= "";
+ }
+ 
+ </script>
+        
+     </div>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+#What is a DOM?
+--> DOM stands for Document Object Model its a technology that helps 
+    to provide full control on html document by the help of javascript.
+
+--> We can change all the tags and and element, attribute that has 
+    been written in html document by writing some javascript
+    code.
+
+--> In DOM, There are five methods that helps to access html code from 
+    javascript.
+    1st:- getElementByID('')
+    2nd:- getElementsByClassName('')
+    3rd:- getElementsByTagName('')
+    4th:- querySelector('')
+    5th:- querySelectorAll('')
+
+--> • DOM stands for Document Object Model
+
+--> • It consists of a tree-like structure that encapsulates 
+      the content of a document on the web
+
+--> • Assume DOM as a blueprint for the web pages that other 
+      programs.
+
