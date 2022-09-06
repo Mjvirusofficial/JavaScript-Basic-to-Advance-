@@ -1,0 +1,66 @@
+.container{
+    border: 3px solid green;
+    border-radius: 6px;
+    height: 95vh;
+    
+}
+
+.box{
+    border: 3px solid green;
+    border-radius: 6px;
+    margin: 8px;
+    padding: 5px;
+}
+
+.input{
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 25px;
+    width: 60%;
+}
+
+.button{
+  margin-left: 10%;
+  border: 2px solid #9e69df;
+  border-radius:40%;
+  background-color: #9e69df;
+  color: white;
+  font-size: 25px;
+}
+
+.button:hover{
+background-color: green;
+border: 2px solid green;
+}
+
+.oldiv{
+
+}
+
+.lidiv{
+font-size: 25px;
+display: flex;
+text-transform:capitalize;
+color:#9e69df;
+font-weight: bold;
+margin-bottom: 4px;
+}
+
+.listStyle{
+
+}
+
+.btn{
+    background-color: #9e69df;
+    border: 2px solid #9e69df;
+    color: white;
+    font-size: 20px;
+    border-radius: 40%;
+    margin-right: 10px;
+}
+
+.btn:hover{
+    background-color: red;
+    border: 2px solid red;
+}
+

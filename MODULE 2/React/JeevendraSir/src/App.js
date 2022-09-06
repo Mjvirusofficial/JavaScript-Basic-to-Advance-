@@ -6,9 +6,9 @@
 // import UseRef from "./Hooks/UseRef/UseRef";
 // import Parents from "./Hooks/UseContext/Parents"; 
 // import FirstComponent from "./Context_API/FirstComponent";
+// import Hr from "./Context_API/Using useState/Hr";
 
-import Hr from "./Context_API/Using useState/Hr";
-
+import Toodo from "./Todo App/Toodo";
 
 function App(){
     return( 
@@ -21,7 +21,8 @@ function App(){
             {/* <UseRef/> */}
             {/* <Parents/> */}
             {/* <FirstComponent/> */}
-            <Hr/>
+            {/* <Hr/> */}
+            <Toodo/>
         </div>
     );
 }
