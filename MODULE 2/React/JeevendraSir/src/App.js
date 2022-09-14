@@ -7,8 +7,12 @@
 // import Parents from "./Hooks/UseContext/Parents"; 
 // import FirstComponent from "./Context_API/FirstComponent";
 // import Hr from "./Context_API/Using useState/Hr";
+// import Toodo from "./Todo App/Toodo";
+// import TodoList from "./Try Todo/TodoList";
+// import UseState from "./Its try folder/UseState";
 
-import Toodo from "./Todo App/Toodo";
+import UseReducer from "./Hooks/UseReducer/UseReducer";
+
 
 function App(){
     return( 
@@ -22,7 +26,10 @@ function App(){
             {/* <Parents/> */}
             {/* <FirstComponent/> */}
             {/* <Hr/> */}
-            <Toodo/>
+            {/* <Toodo/> */}
+            {/* <TodoList/> */}
+            {/* <UseState/> */}
+            <UseReducer/>
         </div>
     );
 }

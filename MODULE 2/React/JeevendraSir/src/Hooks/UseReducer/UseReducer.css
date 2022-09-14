@@ -1,0 +1,23 @@
+.div{
+    font-size: 1rem;
+}
+
+.data{
+    font-size:4rem;
+}
+
+.button{
+    background-color: yellow;
+    margin: 10px;
+    font-size: 1rem;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.button:hover{
+    color: white;
+    background-color: green;
+    border: 2px solid green;
+
+}
