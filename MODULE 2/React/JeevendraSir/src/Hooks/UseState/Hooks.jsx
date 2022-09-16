@@ -7,6 +7,7 @@ function Hooks() {
     
       <div className='box'>
          <h2 className='zero'>{count}</h2>
+         <button className='button' onClick={()=>{setcount(count-1)}}>Click me</button>
          <button className='button' onClick={()=>{setcount(count+1)}}>Click me</button>
       </div>
     

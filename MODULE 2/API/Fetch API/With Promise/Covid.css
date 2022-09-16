@@ -1,0 +1,14 @@
+body{
+    background-color: #ff7ed766;
+}
+
+#heading{
+    border: 3px solid green;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.result{
+    color: black;
+
+}

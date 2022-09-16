@@ -1,0 +1,25 @@
+Question1:- What do you mean by Axios?
+
+--> Axios is a lightweight package which helps to make HTTP request in any 
+    javascript library like react, angular, vue etc.
+
+--> Axiois makes it easy to send Asynchronous HTTP request to REST endpoints 
+    and crud operation.
+
+--> In Axiois data is already respond in json form no need to convert response 
+    data in json form.
+
+--> Axios is the Upgraded version of FETCH API.
+
+_________________________________________________________________________________
+
+Question2:- Why there is need to use Axios API?
+
+--> With the help of Axios we can use all the method of http request.
+    like GET, POST, PUT, DELETE.
+
+--> When we request to the server to access some data the resposne is 
+    already get in json form no any need to convert the data in 
+    JSON formate______________________________________________#
+
+_________________________________________________________________________________

@@ -1,0 +1,101 @@
+Todo devided into part:- 
+1st:- Display jo input pay likh re h
+2nd:- Jb button pay click ho tb hi value display
+wo v ek array mai______________________________#
+
+3rd:- Value Delete when click on cross button
+
+____________________________________________________________________________
+First:- 
+jo likh re h input pay use live dikhany k liye:-
+import React from 'react'
+import { useState } from 'react';
+
+function TodoList() {
+const [input,setInput] = useState()
+  function inputValue(event){
+    setInput(event.target.value)
+  }
+  return (
+    <div>
+      <input type="text"  onChange={inputValue}/>
+      <ol><li>{input}</li></ol>
+    </div>
+  )
+}
+
+export default TodoList;
+
+____________________________________________________________________________
+
+Second:- When Button clicked
+
+import React from 'react'
+import { useState } from 'react';
+
+function TodoList() {
+const [input,setInput] = useState()
+  function inputValue(event){
+    setInput(event.target.value)
+  }
+
+  //When Button Clicked 
+const [array,setArray] = useState([])
+  function buttonlicked(){
+  setArray(oldItem=>[input,...oldItem])
+  setInput('')
+  }
+ 
+  return (
+    <div>
+      <input type="text" value={input} onChange={inputValue}/><button onClick={buttonlicked}>Add</button>
+      {
+        array.map((i,index)=>{
+          return <ul><li>{i}</li></ul>
+        })
+      }
+    </div>
+  )
+}
+
+export default TodoList;
+____________________________________________________________________________
+
+Third:- delete the list;
+
+import React from 'react'
+import { useState } from 'react';
+
+function TodoList() {
+const [input,setInput] = useState()
+  function inputValue(event){
+    setInput(event.target.value)
+  }
+
+  //When Button Clicked 
+const [array,setArray] = useState([])
+  function buttonlicked(){
+  setArray(oldItem=>[input,...oldItem])
+  setInput('')
+  }
+ 
+  // For Deleting;
+  function Delete(id){
+  //  console.log("Delete")
+ setArray(del => del.filter((i,index)=>{
+  return index !== id;
+ }))
+  }
+  return (
+    <div>
+      <input type="text" value={input} onChange={inputValue}/><button onClick={buttonlicked}>Add</button>
+      {
+        array.map((i,index)=>{
+          return <ul><li>{i}</li><button onClick={()=>Delete(index)}>x</button></ul>
+        })
+      }
+    </div>
+  )
+}
+
+export default TodoList;
