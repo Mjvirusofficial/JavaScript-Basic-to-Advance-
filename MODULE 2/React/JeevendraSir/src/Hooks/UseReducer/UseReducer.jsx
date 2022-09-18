@@ -17,7 +17,6 @@ switch (action.type) {
     case 'DECREMENT': return state - 1;
 
     default: return state;
-       
 }
 
 }

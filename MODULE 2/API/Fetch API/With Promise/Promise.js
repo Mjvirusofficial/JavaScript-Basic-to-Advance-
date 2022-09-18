@@ -16,7 +16,7 @@ fetch('https://api.covid19api.com/summary').then(d => d.json()
     TotalRecovered.textContent=`Total TotalRecovered ${Data.TotalRecovered}`;    
     
     let TotalDeaths = document.getElementById('td')
-    TotalDeaths.textContent=`Total Deaths ${Data.TotalDeaths}`;    
+    TotalDeaths.textContent=`Total Deaths ${Data.TotalDeaths}`;     
   
     let NewConfirmed = document.getElementById('nd')
     NewConfirmed.textContent=`New Deaths ${Data.NewConfirmed}`;    

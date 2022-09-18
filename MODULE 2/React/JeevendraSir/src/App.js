@@ -1,7 +1,7 @@
 // import State from "./RactState/State";
 // import Props from "./PropesInReact/Props";
 // import Useeffect from "./Hooks/UseEffect/UseEffect";
-import Hooks from "./Hooks/UseState/Hooks";
+// import Hooks from "./Hooks/UseState/Hooks";
 // import Board from "./TIC-TAC-TOE/Board";
 // import UseRef from "./Hooks/UseRef/UseRef";
 // import Parents from "./Hooks/UseContext/Parents"; 
@@ -11,8 +11,11 @@ import Hooks from "./Hooks/UseState/Hooks";
 // import TodoList from "./Try Todo/TodoList";
 // import UseState from "./Its try folder/UseState";
 // import UseReducer from "./Hooks/UseReducer/UseReducer";
+// import TryUseReducer from "./Hooks/UseReducer/Try UseReducer/TryUseReducer";
 
-import Axios from "./API/Axios/Axios";
+import Reducer3 from "./Hooks/UseReducer/Try UseReducer/AgainTryReducer/Reducer3";
+
+// import Axios from "./API/Axios/Axios";
 
 
 
@@ -22,7 +25,7 @@ function App(){
         <div>
             {/* <State/> */}
             {/* <Props name="Props in JS❤️" youtube="#mjvirus" code="1D8R7D"/> */}
-            <Hooks/>
+            {/* <Hooks/> */}
             {/* <Useeffect/> */}
             {/* <Board/> */}
             {/* <UseRef/> */}
@@ -33,7 +36,9 @@ function App(){
             {/* <TodoList/> */}
             {/* <UseState/> */}
             {/* <UseReducer/> */}
+            {/* <TryUseReducer/> */}
             {/* <Axios/> */}
+            <Reducer3/>
         </div>
     );
 }

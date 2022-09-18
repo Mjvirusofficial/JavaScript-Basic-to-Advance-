@@ -1,0 +1,30 @@
+.box{
+    display: flex;
+    border: 3px solid green;
+    border-radius: 6px;
+    padding: 5px;
+    justify-content: center;
+
+
+}
+
+.btn{
+    margin: 50px;
+    border: 2px solid green;
+    border-radius: 6px;
+    background-color: yellow;
+    color: black;
+    font-size: 30px;
+}
+
+.btn:hover{
+    background-color: green;
+    color: white;
+    
+}
+
+.CONTENT{
+    margin: 10px;
+    font-size: 30px;
+
+}
