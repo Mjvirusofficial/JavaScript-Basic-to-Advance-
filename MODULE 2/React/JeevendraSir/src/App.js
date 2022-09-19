@@ -12,8 +12,10 @@
 // import UseState from "./Its try folder/UseState";
 // import UseReducer from "./Hooks/UseReducer/UseReducer";
 // import TryUseReducer from "./Hooks/UseReducer/Try UseReducer/TryUseReducer";
+// import Reducer3 from "./Hooks/UseReducer/Try UseReducer/AgainTryReducer/Reducer3";
 
-import Reducer3 from "./Hooks/UseReducer/Try UseReducer/AgainTryReducer/Reducer3";
+import IncrDecrCounter from "./Redux/Projects/IncrDecrCounter";
+
 
 // import Axios from "./API/Axios/Axios";
 
@@ -21,6 +23,7 @@ import Reducer3 from "./Hooks/UseReducer/Try UseReducer/AgainTryReducer/Reducer3
 
 
 function App(){
+
     return( 
         <div>
             {/* <State/> */}
@@ -38,7 +41,8 @@ function App(){
             {/* <UseReducer/> */}
             {/* <TryUseReducer/> */}
             {/* <Axios/> */}
-            <Reducer3/>
+            {/* <Reducer3/> */}
+            <IncrDecrCounter/>
         </div>
     );
 }
