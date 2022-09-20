@@ -1,8 +1,9 @@
-import PlusMinusReducer from "./PlusMinusReducer";
+import PlusMinusReducer from "./Reducer/PlusMinusReducer";
+import FormReducer from "./Reducer/FormReducer";
 import { combineReducers } from 'redux'
-
 const rootReducer = combineReducers({
-    PlusMinusReducer
+    PlusMinusReducer, FormReducer
+    
 })
 
 export default  rootReducer;

@@ -9,3 +9,10 @@ export function Decrement(){
         type: 'DECR'
     }
 }
+
+export function Login(data){
+    return {
+        type: "LOGIN",
+        payload:data
+    }
+}
