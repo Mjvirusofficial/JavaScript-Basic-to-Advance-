@@ -1,14 +1,11 @@
-const mj = {
-    name:'',
-    email:''
-}
 
-function SubmitReducer(state = mj,action) {
-  switch (action.type) {
+function SubmitReducer(state={name:''},action) {
+    switch (action.type) {
     case 'SUBMIT':
         return action.payload;
   
-    default : return state;
+    default:
+        return state;
   }
 }
 
