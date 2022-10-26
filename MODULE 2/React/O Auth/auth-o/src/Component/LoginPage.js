@@ -5,17 +5,26 @@ import Logout from './Logout';
 import User from './User';
 
 function LoginPage() {
-    const {isSucess} = useAuth0();
+  const {isAuthenticated} = useAuth0();
   return (
     <div>
-        <h1>This is Autho-O Example❤️</h1>
-        {
-            !isSucess ? (<div><h1>Login</h1><Login/></div>)
-            :
-            (<div><Logout/><User/></div>)
-        }
+    <h1>This is a exapmle of O-AUTH❤️</h1>
+      {
+        !isAuthenticated ? (
+          <div className="">
+          <Login/>
+          </div>
+        ) :
+
+        (
+          <div className="">
+          <Logout/>
+          <User/>
+          </div>
+        )
+      }
     </div>
   )
 }
 
-export default LoginPage;
+export default LoginPage

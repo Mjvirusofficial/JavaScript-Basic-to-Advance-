@@ -1,0 +1,20 @@
+.outer-box{
+    border: 2px solid green;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+h1{
+    font-family: monospace,'bold';
+    
+}
+
+li{
+    font-family: monospace;
+}
+
+li:hover{
+    color: maroon;
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -14,10 +14,12 @@
 // import TryUseReducer from "./Hooks/UseReducer/Try UseReducer/TryUseReducer";
 // import Reducer3 from "./Hooks/UseReducer/Try UseReducer/AgainTryReducer/Reducer3";
 
+import Telecaller from "./Telecaller/Telecaller";
+
 // import Login from "./Login/Login";
 
 // Redux:-
-import IncrDecrCounter from "./Redux/Projects/IncrDecrCounter";
+// import IncrDecrCounter from "./Redux/Projects/IncrDecrCounter";
 
 // import Axios from "./API/Axios/Axios";
 
@@ -43,8 +45,10 @@ function App(){
             {/* <TryUseReducer/> */}
             {/* <Axios/> */}
             {/* <Reducer3/> */}
-            <IncrDecrCounter/>
+            {/* <IncrDecrCounter/> */}
             {/* <Login/> */}
+
+            <Telecaller/>
         </div>
     );
 }

@@ -4,17 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-// import {Auth0Provider} from '@auth0/auth0-react'
+import {Auth0Provider} from '@auth0/auth0-react'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  {/* <Auth0Provider
-  domain='mjvirus.us.auth0.com'
-  clientId='RMP5sFdzRtw7km0axgRKuh07cnXykmk7'
-  redirectUri={window.location.origin}> */}
-    <App />
-  {/* </Auth0Provider> */}
+   <Auth0Provider
+    domain='mjvirus.us.auth0.com'
+    clientId='qSGbyl7XVB2mMTGoWfFYvloQc1dXQNEr'
+    redirectUri={window.location.origin}>
+      <App/>
+    </Auth0Provider>
   </React.StrictMode>
 );
 

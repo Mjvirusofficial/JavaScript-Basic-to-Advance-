@@ -13,3 +13,9 @@ let obj2 = {
     Lname: "virus"
 }
 console.log(obj2)
+
+function sum(...name){
+    return name;
+}
+
+console.log(sum('Deepak','Mj','virus',7061335711))

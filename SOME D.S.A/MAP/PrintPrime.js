@@ -1,3 +1,0 @@
-function PrintPrime(s,e){
-
-}

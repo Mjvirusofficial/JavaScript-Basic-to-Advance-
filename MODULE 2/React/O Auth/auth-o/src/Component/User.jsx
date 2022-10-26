@@ -1,21 +1,21 @@
 import { useAuth0 } from '@auth0/auth0-react'
 import React from 'react'
 
-function User() {
-const {User,Success,Pending} = useAuth0();
-if(Pending === true){
-    return <div className="">Loading...</div>
-}
+const User = () => {
+    const {user,isAuthenticated,isLoading } = useAuth0();
+    if(isLoading === true){
+        return <div className="div">Loading...</div>
+    }
 
-return(
-    Success && (
-        <div className="box">
-            <img src={User.picture} alt={User.name}/>
-            <h2>{User.name}</h2>
-            <h2>{User.email}</h2>
-        </div>
+    return(
+        isAuthenticated && (
+            <div className="div">
+                <img src={user.picture} alt={user.name}/>
+                <h2>{user.name}</h2>
+                <h2>{user.email}</h2>
+            </div>
+        )
     )
-)
 }
 
 export default User
