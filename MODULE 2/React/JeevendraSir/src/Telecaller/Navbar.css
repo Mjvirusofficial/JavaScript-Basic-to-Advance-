@@ -1,0 +1,14 @@
+h2{
+    color: black;
+    font-size: 40px;
+
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p:hover{
+    color: maroon;
+}
+

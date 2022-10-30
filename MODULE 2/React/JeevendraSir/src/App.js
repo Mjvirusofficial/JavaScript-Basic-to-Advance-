@@ -1,7 +1,7 @@
 // import State from "./RactState/State";
 // import Props from "./PropesInReact/Props";
 // import Useeffect from "./Hooks/UseEffect/UseEffect";
-// import Hooks from "./Hooks/UseState/Hooks";
+import Hooks from "./Hooks/UseState/Hooks";
 // import Board from "./TIC-TAC-TOE/Board";
 // import UseRef from "./Hooks/UseRef/UseRef";
 // import Parents from "./Hooks/UseContext/Parents"; 
@@ -14,7 +14,10 @@
 // import TryUseReducer from "./Hooks/UseReducer/Try UseReducer/TryUseReducer";
 // import Reducer3 from "./Hooks/UseReducer/Try UseReducer/AgainTryReducer/Reducer3";
 
-import Telecaller from "./Telecaller/Telecaller";
+
+// import { Route, Routes } from "react-router-dom";
+// import About from "./Telecaller/About";
+// import Telecaller from "./Telecaller/Telecaller";
 
 // import Login from "./Login/Login";
 
@@ -25,13 +28,13 @@ import Telecaller from "./Telecaller/Telecaller";
 
 
 
-function App(){
+function App() {
 
-    return( 
+    return (
         <div>
             {/* <State/> */}
             {/* <Props name="Props in JS❤️" youtube="#mjvirus" code="1D8R7D"/> */}
-            {/* <Hooks/> */}
+            <Hooks/>
             {/* <Useeffect/> */}
             {/* <Board/> */}
             {/* <UseRef/> */}
@@ -47,8 +50,10 @@ function App(){
             {/* <Reducer3/> */}
             {/* <IncrDecrCounter/> */}
             {/* <Login/> */}
-
-            <Telecaller/>
+            {/* <Routes>
+                <Route path="/" element={<Telecaller />}></Route>
+                <Route path="/about" element={<About />}></Route>
+            </Routes> */}
         </div>
     );
 }

@@ -1,9 +1,13 @@
 import React from 'react'
+import Navbar from './Navbar'
 import './Telecaller.css'
 function Telecaller() {
     return (
-        <div className="">
-            <div className='outer-box'>
+        <>
+        
+        <Navbar/>
+            <div className='outer-box mr-2 mt-0'>
+            
                 <div className="container-fluid">
                     <div className="row">
                         <h1 className=''>What is FFREEDOM APP?</h1>
@@ -184,7 +188,7 @@ function Telecaller() {
                 </div>
 
             </div>
-        </div>
+        </>
     )
 }
 

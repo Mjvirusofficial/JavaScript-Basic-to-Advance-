@@ -15,3 +15,39 @@
     font-size: 30px;
     border-radius: 6px;
 }
+
+.heading{
+    color: green;
+    text-align: center;
+}
+
+ul{
+   
+}
+li{
+    margin-top: 15px;
+    list-style: none;
+}
+
+/* .content{
+    display: flex;
+} */
+.value{
+    margin-left: 35vw;
+}
+
+.btn{
+    font-size: 10px;
+}
+
+.content{
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 6px;
+}
+
+.name{
+    text-align: right;
+    font-family: monospace;
+    font-size: 30px;
+}
